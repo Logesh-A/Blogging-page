@@ -1,0 +1,28 @@
+{
+  "blogs": [
+    {
+      "title": "Cognizance Symposium",
+      "body": "Hey champs, Here we are with a new Event. Computer science and engineering association has planned to conduct a inter-departmental symposium on march 3rd. There are 4 tech and 3 non tech events and some coding events too. No registration fee for the participants. Do participate and get some inputs.",
+      "author": "Logesh",
+      "id": 1
+    },
+    {
+      "title": "Rently Experience",
+      "body": "Hi all, I am Kapil and I am proud to inform that I got placed in Rently Software Solutions, I am here to share my Interview experience with you. There are 4 rounds in total \n 1.Coding round\n2.General HR\n3.Technical HR\n4.Managemental Round",
+      "author": "Kapil",
+      "id": 2
+    },
+    {
+      "title": "Biweekly contect by CCC",
+      "body": "Coding club of Computer science and engineering department has planned to conduct a biweekly coding contest on coming friday, Do participate in the event and win exciting cash prizes.",
+      "author": "Kavin",
+      "id": 3
+    },
+    {
+      "title": "Salon Booking Application",
+      "body": "Hi! I am kishore, I have developed a salon booking web application used to book your slots to get groomed, give it a try and save your precious time.",
+      "author": "Kishore",
+      "id": 4
+    }
+  ]
+}
