@@ -1,3 +1,8 @@
+This is a simple blogging page using React and JSON server.
+All the fundamentals of react are used in it. (Props, states, hooks, router, controlled inputs, custom hooks).
+Use 'npm install' to install the dependencies.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
