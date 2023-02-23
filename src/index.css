@@ -17,6 +17,11 @@
 .navbar h1 {
   color: #f1356d;
 }
+.navbar h1:hover {
+  transition: 0.2s;
+  transform: scale(1.1);
+  cursor: pointer;
+}
 .navbar .links {
   margin-left: auto;
 }
@@ -51,7 +56,10 @@
 .blog-preview a{
   text-decoration: none;
 }
-
+.blog-preview:hover {
+  transform: scale(1.03);
+  transition: 0.1s;
+}
 /* blog details page */
 .blog-details h2 {
   font-size: 20px;
@@ -68,4 +76,65 @@
   padding: 8px;
   border-radius: 8px;
   cursor: pointer;
+}
+
+/* create new blog form */
+.create {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.create label {
+  text-align: left;
+  display: block;
+  font-weight: 500;
+}
+.create h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 30px;
+}
+.create input, .create textarea {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  border-radius: 5px;
+  display: block;
+  outline: none;
+}
+.create button {
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.create input:focus, .create textarea:focus {
+  transition: 0.2s;
+  border: 1px solid #f1356d;
+
+}
+
+/* Page not found */
+.does-not-exist {
+  text-align: center;
+}
+.does-not-exist a {
+  text-decoration: none;
+  color: #f1356d;
+  font-weight: 600;
+}
+.does-not-exist a:hover {
+  font-size: 20px;
+  transition: 0.2s;
+}
+.does-not-exist h1 {
+  margin-bottom: 20px;
+}
+
+.blog-list h1 {
+  text-align: center;
 }
